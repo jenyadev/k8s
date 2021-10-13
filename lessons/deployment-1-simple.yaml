@@ -1,8 +1,4 @@
 #-------------------------------------------------------------
-# Manifest File to create Simple Deployment with Labels
-#
-# 
-#-------------------------------------------------------------
 apiVersion : apps/v1
 kind: Deployment
 metadata:
