@@ -1,8 +1,4 @@
 #---------------------------------------------------------------------
-# Manifest File to create Multi Container Pods Deployment with Service
-#
-# 
-#---------------------------------------------------------------------
 apiVersion : apps/v1
 kind: Deployment
 metadata:
@@ -37,7 +33,7 @@ metadata:
   name: my-multi-pods-service
   labels:
      env  : prod
-     owner: DenisAstahov
+     owner: 
 spec:
   type: LoadBalancer
   selector:
