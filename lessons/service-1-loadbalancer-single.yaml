@@ -1,8 +1,4 @@
 #---------------------------------------------------------------------
-# Manifest File to create Single Container Pod Deployment with Service
-#
-# 
-#---------------------------------------------------------------------
 apiVersion : apps/v1
 kind: Deployment
 metadata:
@@ -32,7 +28,7 @@ metadata:
   name: my-single-pod-service
   labels:
     env  : prod
-    owner: DenisAstahov
+    owner: 
 spec:
   selector:
     project: kgb    # Selecting PODS with those Labels
