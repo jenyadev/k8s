@@ -46,5 +46,6 @@
   46 kubectl expose deployment jenya-deply --type=LoadBalancer --port=80
   47 kubectl expose deployment jenya-deploy --type=LoadBalancer --port=80
   kubectl expose deployment jenya-deploy --type=NodePort --port=80  #for minikube testing deployment
+  minikube service jenya-deplay --url
   48 kubectl get services
   
