@@ -1,0 +1,49 @@
+  1 eksctl create cluster -f mycluster2.yaml
+   2 cd .\Desktop\
+   3 cd .\k8s\
+   4 cd .\lesson1\
+   5 eksctl create cluster -f mycluster2.yaml
+   6 eksctl create cluster -f mycluter2.yaml
+   7 ekstl run hello-you --image=httpd:latest
+   8 kubectl run hello-you --image=httpd:latest
+   9 kubecctl get pods
+  10 kubectl get pods
+  11 cubectl describe hello-you
+  12 kubectl describe hello-you
+  13 kubectl describe hello-you
+  14 kubectl describe pod hello-you
+  15 kubectl exec hello-you
+  16 kubectl exec pod hello-you
+  17 kubectl exec pods hello-you
+  18 kubectl exec hello-you
+  19 kubectl exec-it hello-you
+  20 kubectl exec - it hello-you
+  21 kubectl exec - it hello-you
+  22 kubectl exec - it pods-hello-you
+  23 kubectl port-forward hello-you 7788:80
+  24 kubectl get pods
+  25 kubectl delete pod hello-you
+  26 kubectl get nodes
+  27 kubectl create deployment jenya-deploy --image=httpd:latest
+  28 kubectl get pods
+  29 kubectl get deployments
+  30 kubectl describe jenya-deploy
+  31 kubectl describe deployment jenya-deploy
+  32 kubectl scale deployment jenya-deploy --replicas=4
+  33 kubectl get pods
+  34 kubectl get deployments
+  35 kubectl delete deployments jenya-deploy
+  36 kubectl get deployments
+  37 kubectl create deployment jenya-deploy --image=httpd:latest
+  38 kubectl autoscale deployments jenya-deploy --min=2 --max=6
+  39 kubectl get deployments
+  40 kubectl get pods
+  41 kubectl get deployments
+  42 kubectl desribe deployment jenya-deploy
+  43 kubectl describe deployment jenya-deploy
+  44 kubectl get pods
+  45 kubectl describe pod jenya-deploy-5f9887df9d-9dlp7
+  46 kubectl expose deployment jenya-deply --type=LoadBalancer --port=80
+  47 kubectl expose deployment jenya-deploy --type=LoadBalancer --port=80
+  48 kubectl get services
+  
