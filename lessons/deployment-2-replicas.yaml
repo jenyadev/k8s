@@ -8,7 +8,7 @@ metadata:
     env  : prod
     owner: jenya-topol
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       project: cia
